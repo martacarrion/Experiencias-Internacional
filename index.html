@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Mapa Erasmus ETSIT</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+</head>
+
+<body>
+
+<div class="map-container">
+
+<div class="map-header">
+
+<div class="header-title">
+🎓 Experiencias Internacionales ETSIT
+</div>
+
+
+</div>
+
+<div id="filters">
+
+<h3>Filtrar por titulación</h3>
+
+<input 
+type="text" 
+id="search-box" 
+placeholder="🔎 Buscar universidad..."
+>
+
+<label><input type="checkbox" value="GITST_MASTER" checked> GITST + MASTER</label>
+<label><input type="checkbox" value="GITST" checked> GITST</label>
+<label><input type="checkbox" value="MASTER" checked> MASTER</label>
+<label><input type="checkbox" value="GTDM" checked> GTDM</label>
+<label><input type="checkbox" value="GIF" checked> GIF</label>
+<label><input type="checkbox" value="GMAT" checked> GMAT</label>
+
+</div>
+
+<div id="map"></div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="universities2.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

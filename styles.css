@@ -1,0 +1,408 @@
+/* =========================
+   BASE
+========================= */
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f5f7fa;
+text-align:center;
+}
+
+
+/* =========================
+   TÍTULO
+========================= */
+
+.main-title{
+
+font-size:34px;
+font-weight:800;
+
+margin:25px 0;
+
+background:linear-gradient(90deg,#1a73e8,#00a8e8);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+
+/* =========================
+   MAPA
+========================= */
+
+.map-container{
+position:relative;
+width:100%;
+max-width:1200px;
+margin:auto;
+}
+
+#map{
+height:650px;
+width:100%;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+}
+
+
+/* =========================
+   FILTROS (CONTROL MAPA)
+========================= */
+
+#filters{
+
+position:absolute;
+
+top:70px;
+left:20px;
+
+z-index:1000;
+
+background:rgba(255,255,255,0.9);
+backdrop-filter:blur(6px);
+
+padding:16px 18px;
+
+border-radius:12px;
+
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+
+display:flex;
+flex-direction:column;
+gap:8px;
+
+text-align:left;
+
+font-size:14px;
+
+}
+
+#filters h3{
+margin:0 0 6px 0;
+font-size:15px;
+}
+
+#filters label{
+display:flex;
+gap:8px;
+cursor:pointer;
+}
+
+
+
+/* =========================
+   NOMBRES DE PAÍSES
+========================= */
+
+.country-label{
+
+background:transparent;
+border:none;
+box-shadow:none;
+
+font-size:15px;
+font-weight:700;
+color:#2b2b2b;
+
+letter-spacing:0.5px;
+
+text-shadow:
+ -1px -1px 3px white,
+  1px -1px 3px white,
+ -1px  1px 3px white,
+  1px  1px 3px white;
+
+}
+
+.leaflet-interactive{
+transition:fill-opacity 0.3s, stroke-width 0.3s;
+}
+
+
+
+/* =========================
+   POPUP UNIVERSIDAD
+========================= */
+
+.uni-popup{
+font-family:Arial;
+text-align:center;
+padding:6px 4px;
+}
+
+.uni-title{
+font-weight:700;
+font-size:17px;
+margin-bottom:4px;
+}
+
+.uni-location{
+font-size:13px;
+color:#777;
+margin-bottom:10px;
+}
+
+
+
+/* =========================
+   PLAZAS
+========================= */
+
+.uni-places-title{
+
+font-size:14px;
+font-weight:700;
+
+margin-bottom:6px;
+
+color:#444;
+letter-spacing:0.5px;
+
+}
+
+.places-container{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+
+gap:6px;
+
+margin-bottom:12px;
+
+}
+
+.place-badge{
+
+display:flex;
+gap:6px;
+
+padding:4px 8px;
+border-radius:8px;
+
+font-size:12px;
+font-weight:600;
+
+color:white;
+
+}
+
+.degree-GITST_MASTER{background:#1a73e8;}
+.degree-GITST{background:#00a8e8;}
+.degree-MASTER{background:#845ec2;}
+.degree-GTDM{background:#00c9a7;}
+.degree-GIF{background:#ff9671;}
+.degree-GMAT{background:#ffc75f;}
+
+.place-badge .degree{
+color:#555;
+}
+
+.place-badge .number{
+color:#1a73e8;
+font-weight:700;
+}
+
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.uni-buttons{
+
+display:flex;
+justify-content:center;
+
+gap:8px;
+
+}
+
+.uni-btn{
+
+text-decoration:none;
+
+padding:7px 12px;
+
+border-radius:8px;
+
+font-size:13px;
+font-weight:600;
+
+transition:0.2s;
+
+}
+
+.uni-btn.web{
+background:#e7f1ff;
+color:#0b66c3;
+}
+
+.uni-btn.exp{
+background:#eef6ff;
+color:#0066cc;
+}
+
+.uni-btn:hover{
+
+transform:translateY(-1px);
+
+box-shadow:0 2px 6px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* =========================
+   TOOLTIP UNIVERSIDAD
+========================= */
+
+.uni-tooltip{
+
+background:rgba(255,255,255,0.95);
+border:none;
+
+box-shadow:0 2px 8px rgba(0,0,0,0.15);
+
+font-size:12px;
+font-weight:500;
+
+color:#333;
+
+padding:4px 8px;
+
+border-radius:6px;
+
+}
+
+.map-title{
+
+position:absolute;
+
+top:15px;
+left:50%;
+transform:translateX(-50%);
+
+z-index:1000;
+
+background:rgba(255,255,255,0.9);
+backdrop-filter:blur(6px);
+
+padding:10px 18px;
+
+border-radius:12px;
+
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+
+font-size:22px;
+font-weight:700;
+
+color:#1a73e8;
+
+letter-spacing:0.5px;
+
+}
+
+.map-header{
+
+position:absolute;
+
+top:15px;
+left:50%;
+transform:translateX(-50%);
+
+z-index:1000;
+
+background:rgba(255,255,255,0.92);
+backdrop-filter:blur(6px);
+
+padding:12px 20px;
+
+border-radius:14px;
+
+box-shadow:0 8px 22px rgba(0,0,0,0.15);
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+gap:4px;
+
+min-width:280px;
+
+}
+
+.header-title{
+
+font-size:20px;
+font-weight:700;
+
+color:#1a73e8;
+
+}
+
+.header-subtitle{
+
+font-size:13px;
+color:#666;
+
+}
+
+#search-box{
+
+width:100%;
+
+padding:6px 8px;
+
+border-radius:6px;
+border:1px solid #ccc;
+
+font-size:13px;
+
+margin-bottom:8px;
+
+}
+
+.uni-marker{
+ background:transparent;
+ border:none;
+}
+
+.marker-pin{
+
+ width:16px;
+ height:16px;
+
+ border-radius:50%;
+
+ border:2px solid white;
+
+ box-shadow:0 2px 6px rgba(0,0,0,0.35);
+
+}
+
+.marker-circle{
+
+ width:26px;
+ height:26px;
+
+ border-radius:50%;
+
+ background:#d64545;
+
+ color:white;
+
+ font-size:12px;
+ font-weight:700;
+
+ display:flex;
+ align-items:center;
+ justify-content:center;
+
+ border:2px solid white;
+
+ box-shadow:0 2px 6px rgba(0,0,0,0.4);
+
+}
