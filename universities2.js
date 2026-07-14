@@ -16,7 +16,7 @@ const universities = [
     },
 
     website:"https://www.tuwien.at",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/austria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#austria"
   },
 
   {
@@ -36,7 +36,7 @@ const universities = [
     },
 
     website:"https://www.technikum-wien.at",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/austria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#austria"
   },
 
   {
@@ -56,7 +56,7 @@ const universities = [
     },
 
     website:"https://www.tu.berlin",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -76,7 +76,7 @@ const universities = [
     },
 
     website:"https://www.tu-braunschweig.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -96,7 +96,7 @@ const universities = [
     },
 
     website:"https://www.uni-bremen.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -116,7 +116,7 @@ const universities = [
     },
 
     website:"https://www.tu-darmstadt.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -136,7 +136,7 @@ const universities = [
     },
 
     website:"https://www.htw-dresden.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -156,7 +156,7 @@ const universities = [
     },
 
     website:"https://www.fau.eu",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -176,7 +176,7 @@ const universities = [
     },
 
     website:"https://www.hs-furtwangen.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -196,7 +196,7 @@ const universities = [
     },
 
     website:"https://www.tuhh.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -216,7 +216,7 @@ const universities = [
     },
 
     website:"https://www.uni-hannover.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -236,7 +236,7 @@ const universities = [
     },
 
     website:"https://www.fh-westkueste.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -256,7 +256,7 @@ const universities = [
     },
 
     website:"https://www.kit.edu",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -276,7 +276,7 @@ const universities = [
     },
 
     website:"https://www.uni-kassel.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -296,7 +296,7 @@ const universities = [
     },
 
     website:"https://www.th-koeln.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -316,7 +316,7 @@ const universities = [
     },
 
     website:"https://www.ovgu.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -336,7 +336,7 @@ const universities = [
     },
 
     website:"https://www.tum.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -356,7 +356,7 @@ const universities = [
     },
 
     website:"https://www.uni-stuttgart.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -376,7 +376,7 @@ const universities = [
     },
 
     website:"https://www.uni-ulm.de",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/alemania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#alemania"
   },
 
   {
@@ -396,7 +396,7 @@ const universities = [
     },
 
     website:"https://www.uliege.be",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/belgica"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#belgica"
   },
 
   {
@@ -416,7 +416,7 @@ const universities = [
     },
 
     website:"https://uclouvain.be",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/belgica"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#belgica"
   },
 
   {
@@ -436,7 +436,7 @@ const universities = [
     },
 
     website:"https://www.hes-so.ch",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/suiza"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#suiza"
   },
 
   {
@@ -456,7 +456,7 @@ const universities = [
     },
 
     website:"https://www.bordeaux-inp.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -476,7 +476,7 @@ const universities = [
     },
 
     website:"https://www.ensicaen.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -496,7 +496,7 @@ const universities = [
     },
 
     website:"https://www.ensea.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -516,7 +516,7 @@ const universities = [
     },
 
     website:"https://www.telecom-sudparis.eu",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -536,7 +536,7 @@ const universities = [
     },
 
     website:"https://www.centralesupelec.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -556,7 +556,7 @@ const universities = [
     },
 
     website:"https://www.univ-lemans.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -576,7 +576,7 @@ const universities = [
     },
 
     website:"https://www.imt-lille-douai.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -596,7 +596,7 @@ const universities = [
     },
 
     website:"https://www.insa-lyon.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -616,7 +616,7 @@ const universities = [
     },
 
     website:"https://www.imt-atlantique.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -636,7 +636,7 @@ const universities = [
     },
 
     website:"https://www.telecom-paris.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -656,7 +656,7 @@ const universities = [
     },
 
     website:"https://www.ece.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -676,7 +676,7 @@ const universities = [
     },
 
     website:"https://www.univ-gustave-eiffel.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -696,7 +696,7 @@ const universities = [
     },
 
     website:"https://www.insa-rennes.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -716,7 +716,7 @@ const universities = [
     },
 
     website:"https://www.inp-toulouse.fr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/francia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#francia"
   },
 
   {
@@ -736,7 +736,7 @@ const universities = [
     },
 
     website:"https://www.uantwerpen.be",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/belgica"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#belgica"
   },
 
   {
@@ -756,7 +756,7 @@ const universities = [
     },
 
     website:"https://www.vub.be",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/belgica"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#belgica"
   },
 
   {
@@ -776,7 +776,7 @@ const universities = [
     },
 
     website:"https://www.ugent.be",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/belgica"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#belgica"
   },
 
   {
@@ -796,7 +796,7 @@ const universities = [
     },
 
     website:"https://www.kuleuven.be",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/belgica"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#belgica"
   },
 
   {
@@ -816,7 +816,7 @@ const universities = [
     },
 
     website:"https://www.uni-ruse.bg",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/bulgaria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#bulgaria"
   },
 
   {
@@ -836,7 +836,7 @@ const universities = [
     },
 
     website:"https://tu-sofia.bg",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/bulgaria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#bulgaria"
   },
 
   {
@@ -856,7 +856,7 @@ const universities = [
     },
 
     website:"https://www.utp.bg",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/bulgaria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#bulgaria"
   },
 
   {
@@ -876,7 +876,7 @@ const universities = [
     },
 
     website:"https://www.vut.cz",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/republica-checa"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#republica-checa"
   },
 
   {
@@ -896,7 +896,7 @@ const universities = [
     },
 
     website:"https://www.vsb.cz",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/republica-checa"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#republica-checa"
   },
 
   {
@@ -916,7 +916,7 @@ const universities = [
     },
 
     website:"https://www.cvut.cz",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/republica-checa"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#republica-checa"
   },
 
   {
@@ -936,7 +936,7 @@ const universities = [
     },
 
     website:"https://www.ntua.gr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/grecia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#grecia"
   },
 
   {
@@ -956,7 +956,7 @@ const universities = [
     },
 
     website:"https://www.unidu.hr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/croacia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#croacia"
   },
 
   {
@@ -976,7 +976,7 @@ const universities = [
     },
 
     website:"https://www.unizg.hr",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/croacia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#croacia"
   },
 
   {
@@ -996,7 +996,7 @@ const universities = [
     },
 
     website:"https://www.bme.hu",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/hungria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#hungria"
   },
 
   {
@@ -1016,7 +1016,7 @@ const universities = [
     },
 
     website:"https://www.unideb.hu",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/hungria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#hungria"
   },
 
   {
@@ -1036,7 +1036,7 @@ const universities = [
     },
 
     website:"https://sze.hu",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/hungria"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#hungria"
   },
 
   {
@@ -1056,7 +1056,7 @@ const universities = [
     },
 
     website:"https://www.unibo.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1076,7 +1076,7 @@ const universities = [
     },
 
     website:"https://www.unibs.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1096,7 +1096,7 @@ const universities = [
     },
 
     website:"https://www.unica.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1116,7 +1116,7 @@ const universities = [
     },
 
     website:"https://www.unical.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1136,7 +1136,7 @@ const universities = [
     },
 
     website:"https://www.polimi.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1156,7 +1156,7 @@ const universities = [
     },
 
     website:"https://www.unipa.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1176,7 +1176,7 @@ const universities = [
     },
 
     website:"https://www.unipr.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1196,7 +1196,7 @@ const universities = [
     },
 
     website:"https://www.unipg.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1216,7 +1216,7 @@ const universities = [
     },
 
     website:"https://www.uniroma2.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1236,7 +1236,7 @@ const universities = [
     },
 
     website:"https://www.unisa.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1256,7 +1256,7 @@ const universities = [
     },
 
     website:"https://www.unisi.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1276,7 +1276,7 @@ const universities = [
     },
 
     website:"https://www.polito.it",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/italia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#italia"
   },
 
   {
@@ -1296,7 +1296,7 @@ const universities = [
     },
 
     website:"https://www.tudublin.ie",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/irlanda"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#irlanda"
   },
 
   {
@@ -1316,7 +1316,7 @@ const universities = [
     },
 
     website:"https://www.hvl.no",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/noruega"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#noruega"
   },
 
   {
@@ -1336,7 +1336,7 @@ const universities = [
     },
 
     website:"https://www.uis.no",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/noruega"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#noruega"
   },
 
   {
@@ -1356,7 +1356,7 @@ const universities = [
     },
 
     website:"https://www.uit.no",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/noruega"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#noruega"
   },
 
   {
@@ -1376,7 +1376,7 @@ const universities = [
     },
 
     website:"https://www.ntnu.edu",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/noruega"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#noruega"
   },
 
   {
@@ -1396,7 +1396,7 @@ const universities = [
     },
 
     website:"https://www.tue.nl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/holanda"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#holanda"
   },
 
   {
@@ -1416,7 +1416,7 @@ const universities = [
     },
 
     website:"https://www.ulisboa.pt",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/portugal"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#portugal"
   },
 
   {
@@ -1436,7 +1436,7 @@ const universities = [
     },
 
     website:"https://www.up.pt",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/portugal"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#portugal"
   },
 
   {
@@ -1456,7 +1456,7 @@ const universities = [
     },
 
     website:"https://pbs.edu.pl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/polonia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#polonia"
   },
 
   {
@@ -1476,7 +1476,7 @@ const universities = [
     },
 
     website:"https://pg.edu.pl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/polonia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#polonia"
   },
 
   {
@@ -1496,7 +1496,7 @@ const universities = [
     },
 
     website:"https://www.agh.edu.pl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/polonia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#polonia"
   },
 
   {
@@ -1516,7 +1516,7 @@ const universities = [
     },
 
     website:"https://www.p.lodz.pl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/polonia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#polonia"
   },
 
   {
@@ -1536,7 +1536,7 @@ const universities = [
     },
 
     website:"https://www.pw.edu.pl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/polonia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#polonia"
   },
 
   {
@@ -1556,7 +1556,7 @@ const universities = [
     },
 
     website:"https://www.wat.edu.pl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/polonia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#polonia"
   },
 
   {
@@ -1576,7 +1576,7 @@ const universities = [
     },
 
     website:"https://www.tuiasi.ro",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/rumania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#rumania"
   },
 
   {
@@ -1596,7 +1596,7 @@ const universities = [
     },
 
     website:"https://www.uoradea.ro",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/rumania"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#rumania"
   },
 
   {
@@ -1616,7 +1616,7 @@ const universities = [
     },
 
     website:"https://www.ni.ac.rs",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/serbia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#serbia"
   },
 
   {
@@ -1636,7 +1636,7 @@ const universities = [
     },
 
     website:"https://www.hig.se",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/suecia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#suecia"
   },
 
   {
@@ -1656,7 +1656,7 @@ const universities = [
     },
 
     website:"https://www.kth.se",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/suecia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#suecia"
   },
 
   {
@@ -1676,7 +1676,7 @@ const universities = [
     },
 
     website:"https://www.aalto.fi",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/finlandia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#finlandia"
   },
 
   {
@@ -1696,7 +1696,7 @@ const universities = [
     },
 
     website:"https://www.oulu.fi",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/finlandia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#finlandia"
   },
 
   {
@@ -1716,7 +1716,7 @@ const universities = [
     },
 
     website:"https://www.turkuamk.fi",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/finlandia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#finlandia"
   },
 
   {
@@ -1736,7 +1736,7 @@ const universities = [
     },
 
     website:"https://www.uni-lj.si",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/eslovenia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#eslovenia"
   },
 
   {
@@ -1756,7 +1756,7 @@ const universities = [
     },
 
     website:"https://www.um.si",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/eslovenia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#eslovenia"
   },
 
   {
@@ -1776,7 +1776,7 @@ const universities = [
     },
 
     website:"https://www.tuke.sk",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/eslovaquia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#eslovaquia"
   },
 
   {
@@ -1796,7 +1796,7 @@ const universities = [
     },
 
     website:"https://www.uniza.sk",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/eslovaquia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#eslovaquia"
   },
 
   {
@@ -1816,6 +1816,6 @@ const universities = [
     },
 
     website:"https://uwr.edu.pl",
-    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/polonia"
+    experience:"https://outstudentsetsit.blogs.upv.es/experiencias/#polonia"
   }
 ];
