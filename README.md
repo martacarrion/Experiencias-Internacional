@@ -202,17 +202,63 @@ Copiar una universidad existente dentro de `universities2.js` y modificar:
 - Enlace a la experiencia.
 
 ---
-
 # Flujo del proyecto
 
-El funcionamiento completo es el siguiente:
+El proceso de recopilación y publicación de las experiencias se realiza mediante Microsoft Forms, Power Automate, OneDrive y WordPress.
+
+El funcionamiento general es el siguiente:
 
 1. El estudiante completa el formulario de Microsoft Forms.
-2. Power Automate genera automáticamente un PDF con la experiencia.
-3. El PDF se almacena en SharePoint.
-4. Se incorpora el enlace del PDF en el campo `experience` de `universities2.js`.
-5. La experiencia queda disponible automáticamente desde la página web.
+2. Power Automate recoge automáticamente la respuesta.
+3. A partir de las respuestas se genera un archivo HTML.
+4. El archivo HTML se convierte automáticamente en PDF.
+5. Los archivos generados se almacenan en la carpeta correspondiente de OneDrive.
+6. Los PDF se organizan también por países para facilitar su consulta.
+7. La experiencia se incorpora a la página de WordPress de la ETSIT, dentro del apartado correspondiente al país.
 
+El enlace de la universidad en universities2.js no apunta directamente al PDF. El campo experience enlaza con el anchor del país correspondiente en la página de experiencias de WordPress.
+
+# Organización de OneDrive
+
+Los archivos utilizados durante el proceso se encuentran dentro de:
+Experiences → Salientes
+La carpeta está organizada de la siguiente forma:
+
+Salientes/
+│
+├── html/
+│   ├── Experiencia_1.html
+│   ├── Experiencia_10.html
+│   ├── Experiencia_11.html
+│   └── ...
+│
+├── pdf/
+│   ├── Experiencia_1.pdf
+│   ├── Experiencia_10.pdf
+│   ├── Experiencia_11.pdf
+│   └── ...
+│
+└── Paises/
+    ├── Alemania/
+    ├── Italia/
+    ├── ...
+    └── ...
+https://upvedues-my.sharepoint.com/:f:/g/personal/mcarber_upv_edu_es/IgDCF_10spMRT7mp4wFfcpRwAUE5zm7ZYK_q-_kpjAlcSw4?e=ceALec
+
+### Carpeta html
+Contiene los archivos HTML generados a partir de las respuestas de Microsoft Forms.
+Estos archivos son utilizados por Power Automate durante el proceso de generación de los PDF.
+
+### Carpeta pdf
+Contiene los archivos PDF generados automáticamente a partir de los archivos HTML.
+Cada experiencia que se procesa mediante Power Automate genera su correspondiente PDF en esta carpeta.
+
+### Carpeta Paises
+Contiene los PDF organizados por país.
+
+De esta forma, además de disponer de todos los PDF juntos en la carpeta pdf, se dispone de una copia organizada por destino, lo que facilita encontrar las experiencias correspondientes a cada país.
+
+Importante: si se añade una nueva experiencia, es necesario comprobar que el PDF se encuentra también en la carpeta del país correspondiente dentro de Paises.
 ---
 
 # Tecnologías utilizadas
@@ -234,6 +280,35 @@ Las tareas habituales de mantenimiento son:
 - Añadir nuevas experiencias.
 - Actualizar enlaces a universidades.
 - Incorporar nuevos destinos cuando sea necesario.
+
+---
+
+# Mantenimiento de Power Automate
+
+Power Automate es el encargado de automatizar la transformación de las respuestas del formulario en documentos HTML y PDF.
+
+El flujo utiliza los campos del formulario para generar el contenido de cada experiencia. Por este motivo, la estructura del formulario y la del flujo están directamente relacionadas.
+
+Si se modifica Microsoft Forms
+No se deben eliminar ni renombrar preguntas existentes sin revisar posteriormente el flujo de Power Automate.
+Si se añade una pregunta nueva, será necesario comprobar que Power Automate la reconoce y, si se quiere incluir en la experiencia, añadirla también en la generación del HTML.
+
+Por tanto:
+Modificar el formulario → revisar Power Automate → comprobar la generación del HTML y del PDF.
+Si se modifica Power Automate
+Antes de realizar cambios en el flujo, es recomendable comprobar qué pasos afectan a:
+- La obtención de las respuestas de Microsoft Forms.
+- La generación del archivo HTML.
+- La conversión del HTML a PDF.
+- La ubicación donde se guardan los archivos.
+- La organización de los PDF.
+
+Después de cualquier modificación importante, se recomienda realizar una prueba enviando una respuesta de prueba desde Microsoft Forms y comprobar que:
+
+Se genera correctamente el HTML.
+Se genera correctamente el PDF.
+El PDF se guarda en la carpeta pdf.
+El archivo se organiza correctamente en la carpeta del país correspondiente.
 
 ---
 
